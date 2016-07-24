@@ -10,7 +10,7 @@ $azurejavasdk = "azure-sdk-for-java"
 
 
 # get and update code2yaml.json
-& git clone "https://ansyral@github.com/ansyral/OP-Azure-Java-Documentation.git"
+& git clone "ansyral@github.com:ansyral/OP-Azure-Java-Documentation.git"
 $config = Get-Content OP-Azure-Java-Documentation\code2yaml.json -Raw | ConvertFrom-Json
 $config.input_path = $azurejavasdk
 $config.exclude_paths = Join-Path $azurejavasdk -ChildPath "examples"
