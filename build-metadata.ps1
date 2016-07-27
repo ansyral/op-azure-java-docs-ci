@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop'
 
 $scriptPath = $MyInvocation.MyCommand.Path
 $scriptHome = Split-Path $scriptPath
-$azurejavadocs = "OP-Azure-Java-Documentation"
+$azurejavadocs = "docs"
 
 Push-Location $scriptHome
 
